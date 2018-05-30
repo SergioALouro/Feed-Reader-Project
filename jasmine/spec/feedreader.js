@@ -21,78 +21,52 @@ $(function() {
          * allFeeds in app.js to be an empty array and refresh the
          * page?
          */
-        let allFeeds;
-
-        beforeEach(function() {
-           allFeeds = [
-                {
-                    name: 'Udacity Blog',
-                    url: 'http://blog.udacity.com/feed'
-                }, {
-                    name: 'CSS Tricks',
-                    url: 'http://feeds.feedburner.com/CssTricks'
-                }, {
-                    name: 'HTML5 Rocks',
-                    url: 'http://feeds.feedburner.com/html5rocks'
-                }, {
-                    name: 'Linear Digressions',
-                    url: 'http://feeds.feedburner.com/udacity-linear-digressions'
-                }
-            ]; 
-        });
-        
         it('are defined', function() {
             expect(allFeeds).toBeDefined();
             expect(allFeeds.length).not.toBe(0);
         });
 
 
+
+
         /* TODO: Write a test that loops through each feed
          * in the allFeeds object and ensures it has a URL defined
          * and that the URL is not empty.
          */
-        
-        it('URL defined', function() {
-            
-            for(const feed of allFeeds) {
-                expect(allFeeds).toContain(jasmine.objectContaining({
-                    'url': 'http://blog.udacity.com/feed',
-                    'url': 'http://feeds.feedburner.com/CssTricks',
-                    'url': 'http://feeds.feedburner.com/html5rocks',
-                    'url': 'http://feeds.feedburner.com/udacity-linear-digressions'
-                }));
-            };
-		});
 
+         it('url are defined and not empty', function() {
+            for (let feed of allFeeds) {
+                expect(feed.url).toBeDefined();
+                expect(feed.url.length).toBeGreaterThan(0);
+            };
+
+         });
 
         /* TODO: Write a test that loops through each feed
          * in the allFeeds object and ensures it has a name defined
          * and that the name is not empty.
          */
         
-        it('Name defined', function() {
-           for(const feed of allFeeds) {
-                expect(allFeeds).toContain(jasmine.objectContaining({
-                    'name':'Udacity Blog',
-                    'name':'CSS Tricks',
-                    'name':'HTML5 Rocks',
-                    'name':'Linear Digressions'
-                }));
-           };
+        it('name are defined and not empty', function() {
+            for (let feed of allFeeds) {
+                expect(feed.name).toBeDefined();
+                expect(feed.name.length).toBeGreaterThan(0);
+            };
         });
     });
 
 
     /* TODO: Write a new test suite named "The menu" */
+
     describe('The menu', function() {
+
+    });
         /* TODO: Write a test that ensures the menu element is
          * hidden by default. You'll have to analyze the HTML and
          * the CSS to determine how we're performing the
          * hiding/showing of the menu element.
          */
-        it('menu is hidden on load', function() {
-           expect($('<body class="menu-hidden"></body>')).toHaveClass('menu-hidden');
-        });
+        
         
 
          /* TODO: Write a test that ensures the menu changes
@@ -100,8 +74,6 @@ $(function() {
           * should have two expectations: does the menu display when
           * clicked and does it hide when clicked again.
           */
-    });
-        
 
     /* TODO: Write a new test suite named "Initial Entries" */
 
