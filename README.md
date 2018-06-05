@@ -3,7 +3,8 @@
 ## Table of Contents
 
 * [Project Overview](#Project)
-* [Why this Project](#Why) 
+* [Why this Project](#Why)
+* [What will I learn](##What)
 
 # Project Overview
 
