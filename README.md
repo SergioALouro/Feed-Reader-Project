@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-* [Project Overview](#Project Overview)
-* [Why this Project](#Why this Project) 
+* [Project Overview](#Project)
+* [Why this Project](#Why) 
 
 # Project Overview
 
