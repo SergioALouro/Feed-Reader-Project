@@ -4,7 +4,10 @@
 
 * [Project Overview](#"In")
 * [Why this Project](#Why)
-* [What will I learn](#coisas)
+* [What will I learn](#What)
+* [How will this help my career](#How)
+* [How will I complete this project](#How)
+* [Instructions](#Instructions)
 
 # Project Overview
 
