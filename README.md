@@ -63,3 +63,6 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 1. Open index.html
 2. Scrool to the bottom of the page to se the result of the tests that are being carried out  
 
+# Contributing 
+
+ This repository is based in a repository from Udacity. You are free to use this code and change it at your discretion. CONTRIBUTING.md.
