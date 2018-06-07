@@ -60,3 +60,6 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 
 # Instrutions
 
+1. Open index.html
+2. Scrool to the bottom of the page to se the result of the tests that are being carried out  
+
